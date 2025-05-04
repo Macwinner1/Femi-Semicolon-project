@@ -52,6 +52,18 @@ int dogYears = 7 * humanYears;
 System.out.print(name + dogYears);
 }
 
+public static void findMultiplesOf7Not5(){
+
+for(int count = 2000; count <= 3200; count++){
+if(count % 7 == 0 && count % 5 == 0){
+continue;
+}
+if(count % 7 == 0){
+System.out.print(count + ", ");
+}
+}
+}
+
 
 
 }
