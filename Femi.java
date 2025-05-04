@@ -26,6 +26,26 @@ for(int index2 = 1; index2 <= index; index2++){
 }
 
 
+public static String displayAge(int ageYears){
+String result = " ";
+if(ageYears < 0)
+{
+ System.out.print("invalid Age");
+}
+else{
+ int monthValue = ageYears * 12;
+ int dayValue = monthValue * 365;
+ long minutes = dayValue * 1440;
+ long seconds = 60 *minutes;
+
+ result = "Age:" + ageYears + " year(s)," + monthValue + " months," +       dayValue + " days," + minutes + " minutes," + seconds + " seconds";
+}
+
+return result;
+}
+
+
+
 
 
 }
