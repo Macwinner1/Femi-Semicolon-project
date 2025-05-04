@@ -40,11 +40,17 @@ else{
 
  result = "Age:" + ageYears + " year(s)," + monthValue + " months," +       dayValue + " days," + minutes + " minutes," + seconds + " seconds";
 }
-
 return result;
 }
 
 
+public static void displayDogAge(String name, int humanYears){
+if(humanYears <= 0){
+System.out.print("invalid number");
+}
+int dogYears = 7 * humanYears;
+System.out.print(name + dogYears);
+}
 
 
 
