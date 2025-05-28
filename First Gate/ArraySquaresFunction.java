@@ -1,6 +1,6 @@
 public class ArraySquaresFunction{
 
-public static int[] arraySquaresAscending(int[] numbers){
+public static int[] squaresAscending(int[] numbers){
 
 int[] result = new int[5];
 result[0] = 100000;
